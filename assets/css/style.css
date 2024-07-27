@@ -39,6 +39,20 @@ h1 {
     letter-spacing: 2px;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
 /* Main content */
 main {
     background-color: aqua;
