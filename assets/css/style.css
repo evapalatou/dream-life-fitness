@@ -86,6 +86,7 @@ main {
     background-color: aqua;
     /* Make main element take up any surplus space to push footer */
     flex: 1 0 auto;
+    margin-top: 95px;
 }
 
 /* Footer */
