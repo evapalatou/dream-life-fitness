@@ -40,6 +40,7 @@ h1 {
     font-family: 'Kanit', sans-serif;
     /*text-transform: uppercase;*/
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #menu {
@@ -92,7 +93,21 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #091457;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fff;
 }
 
 /* Media query: Tablets and larger screens (768px nd up) */
