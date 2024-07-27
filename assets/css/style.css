@@ -15,13 +15,18 @@ body{
     flex-direction: column;
     /* Generic project styles */
     color: #fff;
-    font-family: 'Kanit';
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
     background-color: lightcoral;
 }
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: aqua;
