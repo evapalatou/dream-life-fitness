@@ -16,6 +16,7 @@ body{
     /* Generic project styles */
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 110%;
 }
 
 /* Header */
@@ -63,7 +64,7 @@ p {
 }
 
 .active {
-    /*border-bottom: 1px solid #fff;*/
+    border-bottom: 1px solid #EA9178;
     color: #EA9178;
 }
 
@@ -295,7 +296,7 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        /* border-bottom: 1px solid #fff; */
+        border-bottom: 1px solid #F8715E;
         color: #F8715E;
     }
 }
