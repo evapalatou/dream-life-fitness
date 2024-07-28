@@ -49,7 +49,7 @@ h2 {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   padding: 30px;
 }
 
@@ -78,6 +78,7 @@ nav {
     box-shadow: 0 2px 2px #091457;
     display: none;
     top: 100%;
+    right: -100%;
 }
 
 /* Nav toggle */
@@ -296,7 +297,7 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        border-bottom: 1px solid #F8715E;
+        /*border-bottom: 1px solid #F8715E;*/
         color: #F8715E;
     }
 }
