@@ -294,6 +294,14 @@ footer {
     color: #fff;
 }
 
+/* Media query: Large or landscape phones (576px nd up) */
+@media screen and (min-width: 576px) {
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
 /* Media query: Tablets and larger screens (768px nd up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -328,6 +336,11 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+    /* Gallery */
+    #photos {
+      column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -335,6 +348,11 @@ footer {
     #menu a:hover{
         /*border-bottom: 1px solid #F8715E;*/
         color: #F8715E;
+    }
+
+    /* Gallery */
+    #photos {
+      column-count: 4;
     }
 }
 
