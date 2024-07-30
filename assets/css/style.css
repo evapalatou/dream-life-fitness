@@ -72,7 +72,7 @@ p {
 nav {
     position: absolute;
     background-color: #091457;
-    widht: 100%;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #091457;
@@ -268,6 +268,7 @@ main {
 #photos img {
   width: 100%;
   line-height: 1em;
+  border-radius: 8px;
 }
 
 #photos {
@@ -326,7 +327,7 @@ footer {
     }
 
     #logo {
-        font-size: 280;
+        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
