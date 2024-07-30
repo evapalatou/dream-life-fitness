@@ -206,7 +206,7 @@ main {
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 360px;
+    width: 280px;
     transition: all 0.5s;
     cursor: pointer;
     margin: auto;
@@ -246,7 +246,7 @@ main {
 
 /* Create four equal columns */
 .column {
-  flex: 33%;
+  flex: 25%;
   padding: 20px;
 }
 
@@ -268,7 +268,6 @@ main {
 #photos img {
   width: 100%;
   line-height: 1em;
-  border-radius: 8px;
 }
 
 #photos {
@@ -281,7 +280,7 @@ main {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 280px;
   height: 350px;
   /*border: 1px solid #f1f1f1;*/
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -321,7 +320,7 @@ main {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #EA9178;
+  background-color: #091457;
   color: white;
   transform: rotateY(180deg);
 }
@@ -353,12 +352,16 @@ footer {
     color: #fff;
 }
 
-/* Media query: Large or landscape phones (576px nd up) */
-@media screen and (min-width: 576px) {
+/* Media query: Large or landscape phones (576px and up) */
+@media screen and (min-width: 280px) {
   #photos {
     column-count: 2;
     column-gap: 0;
   }
+}
+
+#logo {
+  font-size: 180%;
 }
 
 /* Media query: Tablets and larger screens (768px nd up) */
@@ -385,7 +388,7 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 180%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
