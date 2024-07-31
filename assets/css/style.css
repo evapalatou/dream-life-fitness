@@ -41,6 +41,7 @@ h1 {
     font-family: 'Kanit', sans-serif;
     /*text-transform: uppercase;*/
     letter-spacing: 2px;
+    text-align: center;
 }
 
 h2 {
@@ -51,6 +52,10 @@ h2 {
 p {
   text-align: center;
   padding: 0 30px;
+}
+
+.style-icon{
+  color:#F8715E;
 }
 
 #menu {
@@ -248,7 +253,26 @@ main {
 .column {
   flex: 25%;
   padding: 20px;
+  /*margin: 10px 30px;
+  border-radius: 5px;*/
 }
+
+
+#circle-cover-bg {
+  background: url(../images/about/sotiris-sq.jpg) no-repeat top center / cover;
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  /* Makes the square image into a circle */
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+  margin:auto;
+
+}
+
+
+
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
@@ -296,7 +320,7 @@ main {
 .flip-card {
   background-color: transparent;
   width: 280px;
-  height: 350px;
+  height: 320px;
   /*border: 1px solid #f1f1f1;*/
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin-top: 10px;
@@ -403,7 +427,7 @@ footer {
     }
 
     #logo {
-        font-size: 180%;
+        font-size: 150%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
