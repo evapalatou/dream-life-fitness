@@ -37,16 +37,14 @@ header a {
     color:inherit;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Kanit', sans-serif;
-    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     text-align: center;
 }
 
-h2, h3 {
+h3 {
    text-align: center;
-   letter-spacing: 2px;
 }
 
 p {
@@ -105,6 +103,12 @@ main {
     flex: 1 0 auto;
     margin-top: 40px;
     background-color: #505888;
+}
+
+#hero h2, #timeline h2, #newsletter h2, #flip-cards h2, #testimonials h2, #about h2, #gallery h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 220%;
 }
 
 #main-video {
@@ -261,6 +265,32 @@ main {
   border-radius: 5px;*/
 }
 
+/* About page */
+#about, #gallery {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#benefits p {
+  padding: 0 20px;
+}
+
+#benefits hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #circle-cover-bg {
   background: url(../images/about/sotiris-sq.jpg) no-repeat center center / cover;
@@ -276,17 +306,44 @@ main {
 }
 
 
+/* Sign up page */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
 
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .column {
     flex: 50%;
-  }
-
-  .flip-card-section {
-    /*border: 5px solid;*/
-    text-align: center;
   }
 
 }
@@ -301,10 +358,6 @@ main {
     font-size: 120%;
   }
 
-  .flip-card-section {
-  /*border: 5px solid;*/
-  text-align: center;
-}
 }
 
 /* Gallery page */
@@ -368,10 +421,11 @@ main {
   transform: rotateY(180deg);
 }
 
-.center {
+#flip-cards {
   margin: auto;
   /* center main div */
   max-width: fit-content;
+  text-align: center;
 }
 
 
