@@ -310,10 +310,10 @@ main {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: auto;
   text-align: center;
   font-family: arial;
   display: inline-block;
+  padding: 20px;
 }
 
 .price {
@@ -339,15 +339,6 @@ main {
 
 
 
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .column {
-    flex: 50%;
-  }
-
-}
-
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .row {
@@ -355,7 +346,27 @@ main {
   }
 
   #logo {
-    font-size: 120%;
+    font-size: 100%;
+  }
+
+  .card{
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+}
+
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+
+  .card {
+    margin-left: 5%;
   }
 
 }
