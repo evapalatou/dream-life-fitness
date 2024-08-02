@@ -57,7 +57,7 @@ p {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -590,7 +590,7 @@ footer {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 100%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
