@@ -105,7 +105,7 @@ main {
     background-color: #505888;
 }
 
-#hero h2, #timeline h2, #newsletter h2, #flip-cards h2, #testimonials h2, #about h2, #gallery h2 {
+#hero h2, #timeline h2, #newsletter h2, #flip-cards h2, #testimonials h2, #about h2 {
   margin-bottom: 20px;
   text-align: center;
   font-size: 220%;
@@ -265,8 +265,8 @@ main {
   border-radius: 5px;*/
 }
 
-/* About page */
-#about, #gallery {
+/* About page ---------------------------------------------------- CORRECT! */
+#about {
   width: 90%;
   margin: 20px auto;
 }
@@ -302,7 +302,19 @@ main {
   max-width: 300px;
   max-height: 300px;
   margin:auto;
+}
 
+
+
+
+/* Gallery page */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
 }
 
 
@@ -311,9 +323,10 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
-  font-family: arial;
   display: inline-block;
   padding: 20px;
+  margin-inline: auto;
+  
 }
 
 .price {
@@ -326,11 +339,12 @@ main {
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #F8715E;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 .card button:hover {
@@ -351,8 +365,8 @@ main {
 
   .card{
     max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -365,25 +379,9 @@ main {
     flex: 50%;
   }
 
-  .card {
-    margin-left: 5%;
-  }
-
-}
-
-/* Gallery page */
-#photos img {
-  width: 100%;
-  line-height: 1em;
-}
-
-#photos {
-  line-height: 0;
 }
 
 
-
-/* About page */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
