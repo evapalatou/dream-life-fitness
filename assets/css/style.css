@@ -103,6 +103,8 @@ main {
     flex: 1 0 auto;
     margin-top: 40px;
     background-color: #505888;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 #hero h2, #timeline h2, #newsletter h2, #flip-cards h2, #testimonials h2, #about h2 {
@@ -115,7 +117,7 @@ main {
   width: 100%;
 }
 
-/* Timeline layout */
+/* Timeline layout home page */
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -250,7 +252,64 @@ main {
     right: 0;
   }
 
-/*Flex boxes*/  
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 320px;
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-top: 10px;
+  display:inline-block;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #091457;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#flip-cards {
+  margin: auto;
+  /* center main div */
+  max-width: fit-content;
+  text-align: center;
+}
+
+
+/*Flex boxes Testimonials boxes */  
 /* Container for flexboxes */
 .row {
   display: flex;
@@ -305,8 +364,6 @@ main {
 }
 
 
-
-
 /* Gallery page */
 #photos img {
   width: 100%;
@@ -316,9 +373,6 @@ main {
 #photos {
   line-height: 0;
 }
-
-
-
 
 
 
@@ -393,7 +447,7 @@ main {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active2, .dot:hover {
   background-color: #717171;
 }
 
@@ -409,12 +463,7 @@ main {
 }
 
 
-
-
-
-
-
-/* Sign up page */
+/* Packages page */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -448,6 +497,25 @@ main {
 }
 
 
+/* Footer */
+footer {
+    background-color: #091457;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fff;
+}
+
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -477,82 +545,6 @@ main {
 
 }
 
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 280px;
-  height: 320px;
-  /*border: 1px solid #f1f1f1;*/
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin-top: 10px;
-  display:inline-block;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #091457;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-#flip-cards {
-  margin: auto;
-  /* center main div */
-  max-width: fit-content;
-  text-align: center;
-}
-
-
-
-/* Footer */
-footer {
-    background-color: #091457;
-}
-
-#social-networks {
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #fff;
-}
 
 /* Media query: Large or landscape phones (576px and up) */
 @media screen and (min-width: 600px) {
