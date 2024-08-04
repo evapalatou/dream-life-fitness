@@ -56,8 +56,6 @@ p {
   color:#F8715E;
 }
 
-#logo-container {}
-
 
 #menu {
     font-size: 100%;
@@ -483,7 +481,6 @@ main {
 
 
 /* Order page */
-
 .products-container {
   margin-left: 3%;
   margin-right: 3%;
@@ -496,7 +493,6 @@ main {
   display: inline-block;
   padding: 20px;
   margin-inline: auto;
-  
 }
 
 .price {
@@ -520,10 +516,6 @@ main {
 .card button:hover {
   opacity: 0.7;
 }
-
-
-
-
 
 
 /* Contact page */
@@ -605,11 +597,6 @@ main {
   background-color: #43403f;
   color: #fafafa;
 }
-
-
-
-
-
 
 
 /* Footer */
