@@ -366,6 +366,19 @@ main {
   margin:auto;
 }
 
+#message {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#send-message {
+  color: #ffffff;
+  background-color: rgba(60, 60, 60, 0.6);
+  padding: 30px;
+  border-radius: 20px;
+}
+
 
 /* Gallery page */
 #photos img {
@@ -554,6 +567,16 @@ main {
   background-color: #F8715E;
   color: #fafafa;
 }
+
+.button1:hover {
+    background-color: #EA9178;
+    color: white;
+  }
+
+.button2:hover {
+    background-color: #535352;
+    color: white;
+}  
 
 .reset-button {
   margin-top: 20px;
