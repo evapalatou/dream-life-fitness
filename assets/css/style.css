@@ -106,8 +106,8 @@ main {
     flex: 1 0 auto;
     margin-top: 40px;
     background-color: #505888;
-    /*display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
 }
 
 #hero h2, #timeline h2, #newsletter h2, #flip-cards h2, #testimonials h2, #about h2 {
@@ -526,14 +526,13 @@ main {
 
 
 
-/* Sign Up page*/
+/* Contact page */
 #signup {
   background-image: url("../images/signup.jpeg");
   background-size: cover;
   background-position: 75%;
-  padding: 60px 30% 30%;
+  padding: 10% 30%;
   flex-grow: 1;
-  border-radius: 5px;
 }
 
 #signup-form {
@@ -650,18 +649,18 @@ footer {
   }
 
   #signup {
-    max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 300%;
-  overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 320%;
 }
 
 #signup-form {
   max-width: 280px;
   position: absolute;
   left: 10%;
-  /*top: 150px;*/
+  right:10%;
+  object-fit: cover; 
 }
 
 }
