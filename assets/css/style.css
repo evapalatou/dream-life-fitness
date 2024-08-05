@@ -639,15 +639,17 @@ footer {
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 320%;
+    /*margin-bottom: 880px;*/
 }
 
 #signup-form {
-  max-width: 280px;
-  position: absolute;
+  max-width: 400px;
   left: 10%;
-  right:10%;
+  right: 10%;
   object-fit: cover; 
+  position: absolute;
+  font-size: 40%;
+  padding: initial;
 }
 
 }
