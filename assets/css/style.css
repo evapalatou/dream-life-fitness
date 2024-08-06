@@ -333,8 +333,9 @@ main {
 
 /* About page */
 #about-page {
-  width: 90%;
+  max-width: 75%;
   margin: 20px auto;
+  text-align: center;
 }
 
 #about-qualification > div {
