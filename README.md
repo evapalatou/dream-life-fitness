@@ -4,8 +4,23 @@
 
 # Dream Life Fitness
 
+Dream Life Fitness is a site that hopes to help keep people motivated to meet up for runs on a regular basis. The site will be targeted toward individuals or group of people who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+
 ![Dream Life Mockup](documentation/mockup.png)
 
+## Introduction
+
+## Features
+
+## Testing
+
+## Deployment
+
+## Future Improvements
+
+## Credits
+
+## Acknowledgements
 
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -49,8 +64,6 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
-## Release History
-
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
 **June 18, 2024,** Add Mongo back into template
@@ -92,8 +105,6 @@ We continually tweak and adjust this template to help give you the best experien
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
-
-## FAQ about the uptime script
 
 **Why have you added this script?**
 
