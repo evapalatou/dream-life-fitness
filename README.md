@@ -2,25 +2,37 @@
 <img src="documentation/logo.png" border="10"/>
 </p>
 
-# Dream Life Fitness
+# Dream Life Fitness 
 
-Dream Life Fitness is a site that hopes to help keep people motivated to meet up for runs on a regular basis. The site will be targeted toward individuals or group of people who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. The site can be accessed by this <a href="https://evapalatou.github.io/dream-life-fitness/index.html" target="_blank">link</a>.
+Dream Life Fitness Club is a website that heavily promotes personal training for a healthy lifestyle routine. DLFC is based on a four-core value system and is proud of its excellent location, workout sessions, a plethora of activities, and physical and mental health improvement. The website invites individuals to obtain a workout membership and hopes to help keep people motivated to meet up with its personal trainer for workout sessions regularly. The website will be targeted towards individuals or groups of people who are looking for a way to improve their well-being and keep themselves fit. Dream Life Fitness Club is useful for individuals of all ages, and allows them to seek information about a healthy lifestyle while encouraging physical exercise. The visitors of the website can contact the personal trainer directly, or enquire about a new membership with activities of their preference. 
+
+The website can be accessed via the following <a href="https://evapalatou.github.io/dream-life-fitness/index.html" target="_blank">link</a>.
 
 ![Dream Life Mockup](documentation/mockup.png)
 
-## Introduction
+# Introduction
+The purpose of this project is to create a user-friendly and effective platform that can manage large amounts of clients who are looking to get informed on personal training sessions and are seeking personalized exercise activities in the fitness club or outdoors. Additionally, the clients are requested to choose whether they wish to include nutrition consultation for the duration of the workout membership.
 
-## Features
+## User Stories
+- As a **first-time visitor**, I would like to easily understand the main purpose of the website, so that I can learn more about the fitness club and the services that are offered. Furthermore, I would like to be able to navigate the website and access the content quickly. Finally, it is important to read any testimonials to see whether the fitness club is reliable and credible. 
+- As a **returning visitor**, I would like to meet my personal trainer and be able to see his expertise and his professional experience. I would like to view more information about the workout activities that are taking place inside the fitness club and outdoors, in order to ask questions about availability, equipment, and pricelist. Finally, I want to be able to choose a full-blown personalized package that includes both workout and nutrition consultation. 
+- As a **frequent visitor**, I would like to be able to keep in touch with my personal trainer about any changes to the class schedule and the exact location of the activities. Moreover, I would like to have the option to freely communicate with the fitness club about my progress or any new additions made to training packages. Last, but not least, it is important for me to follow any social media pages so that I am informed about any discounts, new activities, and contests that are currently running in the fitness club.  
 
-## Testing
 
-## Deployment
+# Features
+![Dream Life Menu](documentation/menu.png)
 
-## Future Improvements
+![Dream Life Burger Menu](documentation/burger-menu.png)
 
-## Credits
+# Testing
 
-## Acknowledgements
+# Deployment
+
+# Future Improvements
+
+# Credits
+
+# Acknowledgements
 
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
