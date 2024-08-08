@@ -72,7 +72,33 @@ The purpose of this project is to create a user-friendly and effective platform 
 ### Membership Form
 - User signup functionality to create a personalised membership via the website.
 
-![Dream Life Membership Form](documentation/membership-form.png)
+![Dream Life Membership Form](documentation/membership-form.png) 
+
+## Technologies
+- HTML is used as the main structure of the website
+- CSS is used to add the styles and layout of the website
+- <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> icons to make HTML code appear more descriptive
+- <a href="https://marvelapp.com/" target="_blank">Marvel App</a> is used to make wireframes for the website
+- JavaScript is used to develop the slideshow gallery within the website
+- <a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color</a> palette generator for the user interface aesthetic feel
+
+## Design
+### Wireframes
+- The wireframes created in Marvel App depict the final design and structure of the website
+
+![Dream Life Wireframes](documentation/wireframes.png) 
+
+### Color Scheme
+- The color palette of the website is based on the generic gradient color scheme. Dark and Lighter blue is used for the main content, whilst bright and soft orange for highlighting purposes (i.e. buttons, links, hover effect) 
+
+![Dream Life Colors](documentation/colors.png) 
+
+### Typography
+- The project utilizes the Kanit and Roboto font families for typography, providing a clean and modern aesthetic. The color scheme incorporates shades of white, dark blue, and orange, enhancing readability and visual appeal.
+
+![Dream Life Kanit](documentation/kanit.png) 
+
+![Dream Life Roboto](documentation/roboto.png) 
 
 # Testing
 
