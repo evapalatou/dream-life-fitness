@@ -30,27 +30,27 @@ The purpose of this project is to create a user-friendly and effective platform 
 ![Dream Life Burger Menu](documentation/burger-menu.png)
 
 ### Footer
-- The footer contains links to social media channels
+- The footer contains links to social media channels that open in a new window.
 
 ![Dream Life Footer](documentation/footer.png)
 
 ### Button
-- The button acts like quick navigation link for the contact page
+- The button acts like quick navigation link for the contact page.
 
 ![Dream Life Button](documentation/button.png)
 
 ### Flip Cards
-- Hoverable flip cards with 3D effect provide contact information about the fitness club such as opening hours, address, phone number, contact e-mail 
+- Hoverable flip cards with 3D effect provide contact information about the fitness club such as opening hours, address, phone number, contact e-mail. 
 
 ![Dream Life Flip Cards](documentation/flip-cards.png)
 
 ### Testimonials
-- Flex Boxes testimonials section with reviews from our satisfied clients
+- Flex Boxes testimonials section with reviews from our satisfied clients.
 
 ![Dream Life Testimonials](documentation/testimonials.png)
 
 ### Google Maps
-- iframe google maps component with the exact location of the fitness club
+- iframe google maps component with the exact location of the fitness club.
 
 ![Dream Life Google Map](documentation/map.png)
 
