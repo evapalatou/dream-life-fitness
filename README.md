@@ -4,7 +4,7 @@
 
 # Dream Life Fitness
 
-Dream Life Fitness is a site that hopes to help keep people motivated to meet up for runs on a regular basis. The site will be targeted toward individuals or group of people who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+Dream Life Fitness is a site that hopes to help keep people motivated to meet up for runs on a regular basis. The site will be targeted toward individuals or group of people who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. The site can be accessed by this <a href="https://evapalatou.github.io/dream-life-fitness/index.html" target="_blank">link</a>.
 
 ![Dream Life Mockup](documentation/mockup.png)
 
