@@ -20,9 +20,59 @@ The purpose of this project is to create a user-friendly and effective platform 
 
 
 # Features
+### Navbar
+- Navigation bar is positioned on the top of the page and contains the logo of the fitness club. 
+
 ![Dream Life Menu](documentation/menu.png)
 
+- Burger menu is fully responsive on mobile devices.
+
 ![Dream Life Burger Menu](documentation/burger-menu.png)
+
+### Footer
+- The footer contains links to social media channels
+
+![Dream Life Footer](documentation/footer.png)
+
+### Button
+- The button acts like quick navigation link for the contact page
+
+![Dream Life Button](documentation/button.png)
+
+### Flip Cards
+- Hoverable flip cards with 3D effect provide contact information about the fitness club such as opening hours, address, phone number, contact e-mail 
+
+![Dream Life Flip Cards](documentation/flip-cards.png)
+
+### Testimonials
+- Flex Boxes testimonials section with reviews from our satisfied clients
+
+![Dream Life Testimonials](documentation/testimonials.png)
+
+### Google Maps
+- iframe google maps component with the exact location of the fitness club
+
+![Dream Life Google Map](documentation/map.png)
+
+### Contact Form
+- Instant message contact form inside the about page in order to contact the trainer in person.
+
+![Dream Life Contact Form](documentation/contact-form.png)
+
+### Image Gallery
+- JavaScript gallery that includes images with all available activities. The controls of the gallery are designed for color blindness.
+
+![Dream Life Image Gallery](documentation/gallery.png)
+
+### Featured Products
+- Featured products list section that hightlights fitness club's special activities.
+
+![Dream Life Image Gallery](documentation/product-list.png)
+
+### Membership Form
+- User signup functionality to create a personalised membership via the website.
+
+![Dream Life Membership Form](documentation/membership-form.png)
 
 # Testing
 
