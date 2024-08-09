@@ -229,15 +229,15 @@ Contact Page
 - Add a payment gateway for secure online transactions
 
 # Credits
-- Font Awesome
-- Pexels
-- Unsplash
-- W3schools
-- Stack Overflow
-- Hubspot Blog
-- Joshw Comeau
-- Love Running
-- Coders Coffeehouse
+- <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>: for the JavaScript icons used in the project
+- <a href="https://www.pexels.com/" target="_blank">Pexels</a>: for the HD introductory video
+- <a href="https://unsplash.com/" target="_blank">Unsplash</a>: for the images in the slideshow gallery
+- <a href="https://www.w3schools.com/" target="_blank">W3schools</a>: for the features ideas at home page (e.g. timeline, flip cards)
+- <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>: for fixing bugs snippets
+- <a href="https://blog.hubspot.com/" target="_blank">Hubspot Blog</a>: for helpful CSS tutorials
+- <a href="https://www.joshwcomeau.com/" target="_blank">Joshw Comeau</a>: for useful CSS/HTML tutorials
+- <a href="https://evapalatou.github.io/love-running/" target="_blank">Love Running</a>: for the initial idea
+- <a href="https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm" target="_blank">Coders Coffeehouse</a>: for the contact information section
 
 # Acknowledgements
 - my mentor
