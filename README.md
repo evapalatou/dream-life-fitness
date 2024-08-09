@@ -101,7 +101,28 @@ The purpose of this project is to create a user-friendly and effective platform 
 ![Dream Life Roboto](documentation/roboto.png) 
 
 # Testing
-Please refer to the <a href="https://github.com/evapalatou/dream-life-fitness/blob/main/TESTING.md" target="_blank">TESTING.md</a> file for Manual Testing documentation.
+- Please refer to the <a href="https://github.com/evapalatou/dream-life-fitness/blob/main/TESTING.md" target="_blank">TESTING.md</a> file for Manual Testing documentation.
+## Browsers 
+- The website was tested on the following browsers: Chrome, Firefox, Opera
+
+Chrome
+![Dream Life chrome capture](testing/capture-chrome.png) 
+
+Firefox
+![Dream Life firefox capture](testing/capture-firefox.png) 
+
+Opera
+![Dream Life opera capture](testing/capture-safari.png) 
+
+## Responsiveness
+- The website was checked both by devtools implemented in Chrome browser and the Website Responsive Testing Tool (source: http://responsivetesttool.com/)
+
+Chrome devtools
+![Dream Life responsive home](testing/responsive-home.jpg) 
+
+Website Responsive Testing Tool
+![Dream Life responsive home](testing/responsive-home2.jpg) 
+
 
 # Deployment
 
