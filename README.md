@@ -172,10 +172,42 @@ CSS jigsaw - one warning
 | Contact form | Click on the Reset button | The user clears any text inputs |
 
 ## Lighthouse
+- Using lighthouse in devtools, it is confirmed that the website is performing well and it is accessible. However, in most of the pages, the overall performance counts 80% which indicates that further improvements need to be made.
+
+Home Page
+![Dream Life lighthouse home](testing/lighthouse-home.png)
+
+About Page
+![Dream Life lighthouse about](testing/lighthouse-about.png)
+
+Gallery Page
+![Dream Life lighthouse gallery](testing/lighthouse-gallery.png)
+
+Order Page
+![Dream Life lighthouse order](testing/lighthouse-order.png)
+
+Contact Page
+![Dream Life lighthouse contact](testing/lighthouse-contact.png)
+
+## Accessibility
+- Using WAVE tool, it is confirmed that the website has passed the accessibility test, as shown previously as well via the lighthouse reports.
+
+![Dream Life Accessibility](testing/accessibility.png)
 
 ## Bugs
 
-## Accessibility
+1. Add bootstrap code to introductory text at the home page.
+- Solution:
+2. Resize the images at the flip cards section on the home page.
+- Solution:
+3. Add hover effect on social media icons at the footer section.
+- Solution:
+4. Create a thank you page for the message form at about page.
+- Solution:
+5. Center product cards container at the order page.
+- Solution:
+6. Remove JavaScript elements from the website, might cause poor overall performance.
+- Solution:
 
 
 # Deployment
