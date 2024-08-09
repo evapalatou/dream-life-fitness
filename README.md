@@ -101,8 +101,7 @@ The purpose of this project is to create a user-friendly and effective platform 
 ![Dream Life Roboto](documentation/roboto.png) 
 
 # Testing
-- Please refer to the <a href="https://github.com/evapalatou/dream-life-fitness/blob/main/TESTING.md" target="_blank">TESTING.md</a> file for Manual Testing documentation.
-## Browsers 
+## Browser Compatibility
 - The website was tested on the following browsers: Chrome, Firefox, Opera
 
 Chrome
@@ -122,6 +121,61 @@ Chrome devtools
 
 Website Responsive Testing Tool
 ![Dream Life responsive home](testing/responsive-home2.jpg) 
+
+## Code Validation
+- No errors or warnings were found when passing through the official W3C validator (HTML and CSS)
+
+Home Page
+![Dream Life validation home](testing/validation-home.png)
+
+About Page
+![Dream Life validation about](testing/validation-about.png)
+
+Gallery Page
+![Dream Life validation gallery](testing/validation-gallery.png)
+
+Order Page
+![Dream Life validation order](testing/validation-order.png)
+
+Contact Page
+![Dream Life validation contact](testing/validation-contact.png)
+
+CSS jigsaw - one warning
+![Dream Life validation css](testing/validation-css.png)
+![Dream Life validation warning](testing/validation-warning.png)
+## Features Testing
+
+| Feature | Test case | Outcome |
+| --- | --- | --- |
+| Logo | Click on the logo | User is brought to the Home Page | 
+| Navbar Home | Click on the "Home" link | The user is redirected to the main page | 
+| Navbar About | Click on the "About" link | The user is redirected to the about page | 
+| Navbar Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | 
+| Navbar Order | Click on the "Order" link | The user is redirected to the order page | 
+| Navbar Contact | Click on the "Contact" link | The user is redirected to the contact page |
+| Button Subscribe | Click on the "Subscribe" button | The user is redirected to the contact page | 
+| Flip Cards | Hover over the first image | The user obtains class schedule information | 
+| Flip Cards | Hover over the second image | The user views the address of the fitness club | 
+| Flip Cards | Hover over the third image | The user views contact details |
+| Google Maps | Click on Google maps iframe | The user uses scroll to zoom the map |
+| Footer Facebook | Click on the Facebook icon | The user is redirected to the Facebook page |
+| Footer Instagram | Click on the Instagram icon | The user is redirected to the Instagram page |
+| Footer Linkedin | Click on the Linkedin icon | The user is redirected to the Linkedin page |
+| Footer YouTube | Click on the YouTube icon | The user is redirected to the YouTube page |
+| About form | Submit an empty form | Error signaling required fileds |
+| About form | Submit a message form | The user is redirected to the Code Institute's dump form page |
+| About form | Click on the Reset button | The user clears any text inputs |
+| Gallery page | Click on the right control of the slideshow | The user is able to view more images |
+| Order page | Click on the "Contact" button | The user is redirected to the contact page to signup the form | 
+| Contact form | Submit an empty form | Error signaling required fileds |
+| Contact form | Submit a membership form | The user is redirected to the Code Institute's dump form page |
+| Contact form | Click on the Reset button | The user clears any text inputs |
+
+## Lighthouse
+
+## Bugs
+
+## Accessibility
 
 
 # Deployment
