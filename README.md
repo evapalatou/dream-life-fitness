@@ -229,7 +229,20 @@ Contact Page
 - Add a payment gateway for secure online transactions
 
 # Credits
+- Font Awesome
+- Pexels
+- Unsplash
+- W3schools
+- Stack Overflow
+- Hubspot Blog
+- Joshw Comeau
+- Love Running
+- Coders Coffeehouse
 
 # Acknowledgements
+- my mentor
+- sotiris palatos
+- Code Institute
+- Kevin Powell
 
 
