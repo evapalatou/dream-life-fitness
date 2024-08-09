@@ -211,6 +211,17 @@ Contact Page
 
 
 # Deployment
+### via Gitpod
+1. Go to Your Cloud IDE, Gitpod
+2. Click <a href="https://codeinstitute-ide.net/new" target="_blank">**New Workspace**</a>  
+3. Select from dropdown menu the repository of this project <a href="https://github.com/evapalatou/dream-life-fitness" target="_blank">**Dream Life Fitness**</a>
+
+### via Github 
+1. In the GitHub repository, navigate to the **Settings** tab
+2. From the Code and Automation dropdown menu select **Pages**
+3. Select the branch to be **main** and the folder to be **/root** 
+4. Then, click **save**
+5. Follow the <a href="https://evapalatou.github.io/dream-life-fitness/" target="_blank">deployed link</a> to the website
 
 # Future Improvements
 
