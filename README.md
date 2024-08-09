@@ -101,7 +101,7 @@ The purpose of this project is to create a user-friendly and effective platform 
 ![Dream Life Roboto](documentation/roboto.png) 
 
 # Testing
-Please refer to <a href="TESTING.md" target="_blank">TESTING.md</a>
+Please refer to the <a href="https://github.com/evapalatou/dream-life-fitness/blob/main/TESTING.md" target="_blank">TESTING.md</a> file for Manual Testing documentation.
 
 # Deployment
 

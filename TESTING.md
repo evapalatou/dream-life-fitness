@@ -1,14 +1,13 @@
-<p align="center">
-<img src="documentation/logo.png" border="10"/>
-</p>
+# Manual Testing
 
-# Dream Life Fitness 
+## Browsers
+- The website was tested on the following browsers: Chrome, Firefox, Opera.
 
-Dream Life Fitness Club is a website that heavily promotes personal training for a healthy lifestyle routine. DLFC is based on a four-core value system and is proud of its excellent location, workout sessions, a plethora of activities, and physical and mental health improvement. The website invites individuals to obtain a workout membership and hopes to help keep people motivated to meet up with its personal trainer for workout sessions regularly. The website will be targeted towards individuals or groups of people who are looking for a way to improve their well-being and keep themselves fit. Dream Life Fitness Club is useful for individuals of all ages, and allows them to seek information about a healthy lifestyle while encouraging physical exercise. The visitors of the website can contact the personal trainer directly, or enquire about a new membership with activities of their preference. 
+![Dream Life Chrome capture](testing/capture-chrome.gif)
 
-The website can be accessed via the following <a href="https://evapalatou.github.io/dream-life-fitness/index.html" target="_blank">link</a>.
+![Dream Life Firefox capture](testing/capture-firefox.gif)
 
-![Dream Life Mockup](documentation/mockup.png)
+![Dream Life Opera capture](testing/capture-opera.gif)
 
 # Introduction
 The purpose of this project is to create a user-friendly and effective platform that can manage large amounts of clients who are looking to get informed on personal training sessions and are seeking personalized exercise activities in the fitness club or outdoors. Additionally, the clients are requested to choose whether they wish to include nutrition consultation for the duration of the workout membership.
