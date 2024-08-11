@@ -49,7 +49,6 @@ h3 {
 
 p {
   text-align: center;
-  padding: 0 30px;
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -118,6 +117,10 @@ main {
 
 #main-video {
   width: 100%;
+}
+
+.intro-text {
+  padding:0 80px;
 }
 
 #iframe {
@@ -313,6 +316,11 @@ main {
   /* center main div */
   max-width: fit-content;
   text-align: center;
+}
+
+#flip-card-size {
+  width:280px;
+  height:350px;
 }
 
 

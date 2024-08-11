@@ -240,7 +240,7 @@ Contact Page
 - <a href="https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm" target="_blank">Coders Coffeehouse</a>: for the contact information section
 
 # Acknowledgements
-- Iuliia Konovalova, my mentor, has been a great supporter of this project. She smoothly guided me through the development of the project proving me with constant feedback and ideas for adequate implementation.
+- Iuliia Konovalova, my mentor, has been a great supporter of this project. She smoothly guided me through the development of the project providing me with constant feedback and ideas for adequate implementation.
 - Sotiris Palatos, my brother, who gave me permission to use the content from his current website. It had been a great opportunity to apply all this knowledge into a brand new website.
 - Code Institute tutors and Slack community members for their support and help.
 - Kevin Powell for his amazing video tutorials.
