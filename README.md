@@ -200,8 +200,8 @@ Contact Page
 - Solution:
 2. Resize the images at the flip cards section on the home page.
 - Solution:
-3. Add hover effect on social media icons at the footer section.
-- Solution:
+3. Add hover effect on social media icons at the footer section. [SOLVED]
+- Solution: added the #social-networks i:hover in the .css file that changes the color of the icons
 4. Create a thank you page for the message form at about page.
 - Solution:
 5. Center product cards container at the order page.

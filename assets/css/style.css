@@ -623,6 +623,10 @@ footer {
     color: #fff;
 }
 
+#social-networks i:hover {
+  color: #F8715E;
+}
+
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
