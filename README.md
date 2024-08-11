@@ -208,7 +208,8 @@ Contact Page
 - Solution:
 6. Remove JavaScript elements from the website, might cause poor overall performance.
 - Solution:
-
+7. Add cursor pointer to the flip cards section [SOLVED]
+- Solution: Edited the flip-card class by adding the attribute cursor: pointer;
 
 # Deployment
 ### via Gitpod
