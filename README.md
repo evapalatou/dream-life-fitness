@@ -196,14 +196,14 @@ Contact Page
 
 ## Bugs
 
-1. Add bootstrap code to introductory text at the home page.
-- Solution:
-2. Resize the images at the flip cards section on the home page.
-- Solution:
+1. Add bootstrap code to introductory text at the home page. [SOLVED]
+- Solution: applied css class intro-text to create some left/right padding to prevent text expansion.
+2. Remove the embedded style from .html file at the flip cards section on the home page. [SOLVED]
+- Solution: added .css code to incorporate the changes and improve the html coding practices.
 3. Add hover effect on social media icons at the footer section. [SOLVED]
-- Solution: added the #social-networks i:hover effect in the .css file that changes the color of the icons
-4. Create a thank you page for the message form at about page.
-- Solution:
+- Solution: added the #social-networks i:hover effect in the .css file that changes the color of the icons.
+4. Create a thank you page for the message form at about page. [SOLVED]
+- Solution: created and additional html page response.html and used the GET form method. Additionally I used the meta tag refresh to automatically redirect to the index page.
 5. Center product cards container at the order page.
 - Solution:
 6. Remove JavaScript elements from the website, might cause poor overall performance.
