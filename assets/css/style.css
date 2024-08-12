@@ -494,9 +494,14 @@ main {
 
 /* Order page */
 .products-container {
-  margin-left: 3%;
+  /*margin-left: 3%;
   margin-right: 3%;
-  display: inline-block;
+  display: inline-block;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {

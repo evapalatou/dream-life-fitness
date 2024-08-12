@@ -204,8 +204,8 @@ Contact Page
 - Solution: added the #social-networks i:hover effect in the .css file that changes the color of the icons.
 4. Create a thank you page for the message form at about page. [SOLVED]
 - Solution: created and additional html page response.html and used the GET form method. Additionally I used the meta tag refresh to automatically redirect to the index page.
-5. Center product cards container at the order page.
-- Solution:
+5. Center product cards container at the order page. [SOLVED]
+- Solution: updated .css file with following attributes display: flex, flex-direction, flex-wrap
 6. Remove JavaScript elements from the website, might cause poor overall performance.
 - Solution:
 7. Add cursor pointer to the flip cards section [SOLVED]
