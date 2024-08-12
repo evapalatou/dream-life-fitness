@@ -206,8 +206,8 @@ Contact Page
 - Solution: created and additional html page response.html and used the GET form method. Additionally I used the meta tag refresh to automatically redirect to the index page.
 5. Center product cards container at the order page. [SOLVED]
 - Solution: updated .css file with following attributes display: flex, flex-direction, flex-wrap
-6. Remove JavaScript elements from the website, might cause poor overall performance.
-- Solution:
+6. Remove JavaScript elements from the website, might cause poor overall performance. [SOLVED]
+- Solution: replaced onClick() js function with <a href> tag and applied style css
 7. Add cursor pointer to the flip cards section [SOLVED]
 - Solution: Edited the flip-card class by adding the attribute cursor: pointer;
 

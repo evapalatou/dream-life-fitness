@@ -535,6 +535,11 @@ main {
   opacity: 0.7;
 }
 
+#contact-button {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* Contact page */
 #signup {
