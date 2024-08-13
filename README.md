@@ -122,6 +122,16 @@ Chrome devtools
 Website Responsive Testing Tool
 ![Dream Life responsive home](testing/responsive-home2.jpg) 
 
+Chrome devtools - Mobile Phone 375 x 667
+![Dream Life responsive mobile](testing/responsiveness-mobile-1.jpg) 
+
+![Dream Life responsive mobile](testing/responsiveness-mobile-s.jpg)
+
+Chrome devtools - Tablet 768 x 1024
+![Dream Life responsive mobile](testing/responsiveness-tablet-1.jpg) 
+
+![Dream Life responsive mobile](testing/responsiveness-tablet-2.jpg)
+
 ## Code Validation
 - No errors or warnings were found when passing through the official W3C validator (HTML and CSS)
 
