@@ -132,6 +132,11 @@ Chrome devtools - Tablet 768 x 1024
 
 ![Dream Life responsive mobile](testing/responsiveness-tablet-2.jpg)
 
+Chrome devtools - Laptop 1280 x 800
+![Dream Life responsive mobile](testing/responsiveness-laptop-1.jpg) 
+
+![Dream Life responsive mobile](testing/responsiveness-laptop-2.jpg)
+
 ## Code Validation
 - No errors or warnings were found when passing through the official W3C validator (HTML and CSS)
 
