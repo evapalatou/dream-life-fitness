@@ -211,7 +211,7 @@ Contact Page
 
 ## Bugs
 
-1. Add bootstrap code to introductory text at the home page. [SOLVED]
+1. Add piece of code to introductory text at the home page. [SOLVED]
 - Solution: applied css class intro-text to create some left/right padding to prevent text expansion.
 2. Remove the embedded style from .html file at the flip cards section on the home page. [SOLVED]
 - Solution: added .css code to incorporate the changes and improve the html coding practices.
